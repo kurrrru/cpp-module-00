@@ -87,7 +87,6 @@ void Contact::displayInfo() const {
         "Darkest secret"
     };
     for (int i = 0; i < _infoSize; i++) {
-        std::cout << i << std::endl;
         std::cout << std::setw(_printWidth) << infoNames[i]
             << ": " << _info[i] << std::endl;
     }
