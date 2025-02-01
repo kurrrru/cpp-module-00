@@ -1,0 +1,4 @@
+#ifndef EX02_ACCOUNT_HPP_
+#define EX02_ACCOUNT_HPP_
+
+#endif  // EX02_ACCOUNT_HPP_
