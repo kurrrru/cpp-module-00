@@ -1,5 +1,4 @@
-#ifndef EX01_CONTACT_HPP_
-#define EX01_CONTACT_HPP_
+#pragma once
 
 #include <string>
 
@@ -30,5 +29,3 @@ class Contact {
     std::string getInfo(InfoType type) const;
     void displayInfo() const;
 };
-
-#endif  // EX01_CONTACT_HPP_

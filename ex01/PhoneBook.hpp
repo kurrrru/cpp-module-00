@@ -1,5 +1,4 @@
-#ifndef EX01_PHONEBOOK_HPP_
-#define EX01_PHONEBOOK_HPP_
+#pragma once
 
 #include <string>
 #include "Contact.hpp"
@@ -25,5 +24,3 @@ class PhoneBook {
     ~PhoneBook();
     void startInteractivePrompt();
 };
-
-#endif  // EX01_PHONEBOOK_HPP_
