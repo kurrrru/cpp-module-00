@@ -7,7 +7,7 @@ int main(int argc, char **argv) {
     } else {
         for (int i = 1; i < argc; i++) {
             std::string str = argv[i];
-            for (size_t j = 0; j < str.length(); j++) {
+            for (std::size_t j = 0; j < str.length(); j++) {
                 std::cout << static_cast<char>(std::toupper(str[j]));
             }
         }
