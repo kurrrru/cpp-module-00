@@ -33,6 +33,7 @@ bool Contact::_isInvalidPhoneNumber(const std::string &phoneNumber) {
         if (std::isdigit(phoneNumber[i]))
             return false;
     }
+	std::cout << "The phone number must contain at least one digit." << std::endl;
     return true;
 }
 

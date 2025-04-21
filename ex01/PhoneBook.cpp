@@ -129,11 +129,13 @@ void PhoneBook::startInteractivePrompt() {
             }
         } else if (command == "SEARCH") {
             if (!_searchContact()) {
-                std::cout << std::endl;
-                break;
+                // std::cout << std::endl;
+                // break;
+				continue;
             }
         } else {
             std::cout << "Invalid command." << std::endl;
+			std::cout << "Valid commands are: ADD, SEARCH, EXIT." << std::endl;
         }
     }
 }
