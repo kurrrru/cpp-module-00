@@ -79,7 +79,7 @@ std::size_t PhoneBook::_getIndexFromInput() const {
             std::cout << "Invalid index." << std::endl;
             continue;
         }
-        if (index < 1 || index > _lastId) {
+        if (index < 1 || index > _lastId || index > _contactSize) {
             std::cout << "Invalid index." << std::endl;
             continue;
         }
